@@ -1,0 +1,21 @@
+{
+    "name": "mbojanks/contextual-permissions",
+    "description": "Adds contextual role logic to Spatie/laravel-permission",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Mbojanks\\ContextualPermissions\\": "src/"
+      }
+    },
+    "require": {
+      "spatie/laravel-permission": "^6.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Mbojanks\\ContextualPermissions\\ContextualPermissionsServiceProvider"
+        ]
+      }
+    }
+  }
