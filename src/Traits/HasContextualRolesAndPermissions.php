@@ -1,5 +1,5 @@
 <?php
-namespace Mbojanks\ContextualPermissions\ContextualPermissions\Traits;
+namespace Mbojanks\ContextualPermissions\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
