@@ -8,4 +8,8 @@ return [
     'no_role' => 'User DOES NOT have the role in context.',
     'no_roles' => 'User has no roles in context.',
     'roles_list' => 'User roles in context:',
+    'confirm_uninstall' => 'Are you sure you want to delete all contextual roles?',
+    'cancelled' => 'Operation cancelled.',
+    'deleted_roles' => 'Successfully deleted :count contextual roles from :table.',
+    'columns_dropped' => 'Migration columns context_type and context_id have been removed.',
 ];

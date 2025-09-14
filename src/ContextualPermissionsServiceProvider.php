@@ -6,6 +6,7 @@ use Mbojanks\ContextualPermissions\Console\CheckRoleInContextCommand;
 use Mbojanks\ContextualPermissions\Console\ListRolesInContextCommand;
 use Mbojanks\ContextualPermissions\Console\AssignRoleInContextCommand;
 use Mbojanks\ContextualPermissions\Services\ContextualPermissionService;
+use Mbojanks\ContextualPermissions\Console\UninstallContextualPermissionsCommand;
 
 class ContextualPermissionsServiceProvider extends ServiceProvider
 {
@@ -29,6 +30,7 @@ class ContextualPermissionsServiceProvider extends ServiceProvider
                 AssignRoleInContextCommand::class,
                 CheckRoleInContextCommand::class,
                 ListRolesInContextCommand::class,
+                UninstallContextualPermissionsCommand::class,
             ]);
         }
     }
